@@ -99,5 +99,5 @@ MIT License
 
 ```
 ```
-git clone https://github.com/jiuzeyuli/ultimate-image-manager.git ./plugina/ultimate-image-manager
+git clone https://github.com/jiuzeyuli/ultimate-image-manager.git ./plugins/ultimate-image-manager
 ```
