@@ -92,3 +92,26 @@
 
 MIT License
 
+## 快速克隆
+
+- **前提**: 已安装 `git`。在 Windows 上建议使用 PowerShell。
+- **直接克隆 (HTTPS)**:
+
+```
+git clone https://github.com/OWNER/REPO.git
+```
+
+- **直接克隆 (SSH)**:
+
+```
+git clone git@github.com:OWNER/REPO.git
+```
+
+- **使用提供的 PowerShell 脚本（可替换仓库地址）**:
+
+```
+powershell -ExecutionPolicy Bypass -File scripts/clone.ps1 -repo "https://github.com/OWNER/REPO.git" -target "my-folder"
+```
+
+替换 `OWNER/REPO.git` 为实际仓库地址。
+
